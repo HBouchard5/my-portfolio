@@ -87,6 +87,166 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Global Styles */
+
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: black;
+}
+ 
+a {
+	color: blue;
+  text-decoration: none;
+}
+
+nav li {
+  font-size: 1.125em; 
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.25em; 
+}
+
+h2 {
+  font-size: 1.875em;
+  font-weight: medium;
+  margin: 0;
+}
+ 
+h3 {
+  font-size: 1.25em;
+  width: 100%;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.125em;
+  width: 100%;
+  text-align: center;
+}
+ 
+p {
+	font-size: 0.875em;
+  line-height: 1.125em;
+  margin: 0;
+}
+ 
+img {
+  width: 100%;
+}
+ 
+figure {
+  padding:0;
+  margin: 0;
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 30px 0;
+}
+
+/***** Flex Box *****/
+.content-wrapper,
+header, nav, nav ul, 
+.about, .about-text,
+.projects, .project, .description,
+.skills, .skills-wrapper, .tools-wrapper,
+footer, .social, .github, .linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid red;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+header, footer, section {
+  border: 1px solid blue;
+}
+
+
+/**** Header Section *****/
+
+nav ul {
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 25px;
+}
+
+
+/**** About Section *****/
+.about p {
+  margin-bottom: 30px;
+}
+
+
+
+/***** Projects Section *****/
+
+.projects figure,
+.description {
+  width: 80%;
+}
+
+button {
+  width: 100%;
+}
+
+.skills-list {
+  margin-top: 20px;
+}
+
+/**** Skills Section ****/
+
+.skills-wrapper,
+.tools-wrapper {
+  width: 80%;
+  justify-content: space-between;
+}
+
+.skills h3 {
+  margin: 0;
+}
+
+.skills p {
+  background-color: yellowgreen;
+  padding: 10px;
+}
+
+/***** Footer/Contact Section *****/
+
+.social {
+  width: 75%;
+  justify-content: space-between;
+}
+
+.linkedin, .github {
+  width: 49%;
+}
+
+.social p {
+  width: 100%
+  text-align: center;
+}
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
