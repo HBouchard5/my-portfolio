@@ -19,6 +19,14 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <!-- Font Awesome Kit Code -->
+  <script src="https://kit.fontawesome.com/6a5635ad35.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet">
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -29,12 +37,8 @@
   <!-- Header Section -->
   <header>
     <div class="content-wrapper">
-
       <nav>
-        <figure class="fontawesome-icon">
-          <img class="code-icon" src="" alt="code-icon">
-        </figure>
-
+        <p class="fontawesome-icon"><i class="fas fa-code"></i></p>
         <ul class="menu">
           <li>About</li>
           <li>Projects</li>
@@ -42,7 +46,6 @@
           <li>Follow Me</li>
         </ul>
       </nav>
-
       <h1>Heidi Bouchard</h1>
       <h2>Front End Developer</h2>
     </div>
@@ -50,22 +53,8 @@
 
   <!-- Main Section -->
   <main>
-    <!-- About Section -->
-    <section class="about">
-      <div class="content-wrapper">
 
-        <figure class="about-photo">
-          <img src="" alt="about-photo">
-        </figure>
 
-        <div class="about-text">
-          <h3>About Me</h3>
-          <p>This is why I want to be a developer.</p>
-          <p>Here is a little about my personality</p>
-        </div>
-
-      </div>
-    </section>
 
     <!------------------------------------------- Projects Section ----------------------------------------------------->
     <section class="projects">
@@ -75,16 +64,16 @@
 
         <article class="project">
           <!-- Project Image -->
-          <figure class="project-img">
-            <img src="" alt="project-img">
+          <figure class="project-img"><a href="https://hbouchard5.github.io/unplugged-retreat/" target="_blank">
+            <img src="img/unplugged-retreat.jpg" alt="unplugged-img"></a>
           </figure>
           <!-- Project Description -->
           <div class="description">
-            <h4>Project Title</h4>
-            <p>Description of project</p>
-            <p class="skills-list"><strong>Skills: </strong>Skill, Skill, Skill</p>
-            <p class="tools-list"><strong>Tools: </strong>Tool, Tool, Tool</p>
-            <button class="btn-live">Live Page</button>
+            <h4>Unplugged Retreat</h4>
+            <p>A multi-page responsive website for a fictional nature retreat company.</p>
+            <p class="skills-list"><strong>Skills: </strong>HTML/CSS, Mobile First Design</p>
+            <p class="tools-list"><strong>Tools: </strong>Git, Photoshop, VSCode, Chrome DevTools</p>
+            <a class="project-button" href="https://hbouchard5.github.io/unplugged-retreat/" target="_blank">Live Page</a>
           </div>
         </article>
 
@@ -99,7 +88,7 @@
             <p>Description of project</p>
             <p class="skills-list"><strong>Skills: </strong>Skill, Skill, Skill</p>
             <p class="tools-list"><strong>Tools: </strong>Tool, Tool, Tool</p>
-            <button class="btn-live">Live Page</button>
+            <a class="project-button" href="" target="_blank">Live Page</a>
           </div>
         </article>
 
@@ -114,24 +103,11 @@
             <p>Description of project</p>
             <p class="skills-list"><strong>Skills: </strong>Skill, Skill, Skill</p>
             <p class="tools-list"><strong>Tools: </strong>Tool, Tool, Tool</p>
-            <button class="btn-live">Live Page</button>
+            <a class="project-button" href="" target="_blank">Live Page</a>
           </div>
         </article>
         
-        <article class="project">
-          <!-- Project Image -->
-          <figure class="project-img">
-            <img src="" alt="project-img">
-          </figure>
-          <!-- Project Description -->
-          <div class="description">
-            <h4>Project Title</h4>
-            <p>Description of project</p>
-            <p class="skills-list"><strong>Skills: </strong>Skill, Skill, Skill</p>
-            <p class="tools-list"><strong>Tools: </strong>Tool, Tool, Tool</p>
-            <button class="btn-live">Live Page</button>
-          </div>
-        </article>      
+          
       </div>
     </section>
     <!----------------------------------------------------End Project Section ----------------------------------->
@@ -144,20 +120,37 @@
         <!-- Languages and Skills -->
         <h4>Developer Skills</h4>
         <div class="skills-wrapper">
-          <p class="skill">Skill</p>
-          <p class="skill">Skill</p>
-          <p class="skill">Skill</p>
-          <p class="skill">Skill</p>
+          <p class="skill">HTML/CSS</p>
+          <p class="skill">JavaScript</p>
+          <p class="skill">JS React</p>
+          <p class="skill">WordPress</p>
         </div>
 
         <!-- Developer Tools and Software -->
         <h4>Tech Stack</h4>
         <div class="tools-wrapper">
-          <p class="skill">Tool</p>
-          <p class="skill">Tool</p>
-          <p class="skill">Tool</p>
-          <p class="skill">Tool</p>
+          <p class="skill">Git/GitHub</p>
+          <p class="skill">Photoshop</p>
+          <p class="skill">Chrome DevTools</p>
+          <p class="skill">Visual Studio Code</p>
         </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="content-wrapper">
+
+        <figure class="about-photo">
+          <img src="img/profile-photo-72ppi.jpg" alt="about-photo">
+        </figure>
+
+        <div class="about-text">
+          <h3>About Me</h3>
+          <p>This is why I want to be a developer.</p>
+          <p>Here is a little about my personality</p>
+        </div>
+
       </div>
     </section>
 
@@ -169,17 +162,17 @@
         <div class="social">
           <!-- LinkedIn -->
           <div class="linkedin">
-            <figure class="fontawesome-icon">
-              <img src="" alt="linkedin-icon">
-            </figure>
+            <p class="fontawesome-icon"><a href="www.linkedin.com">
+              <i class="fab fa-linkedin"></i></a>
+            </p>
             <p>LinkedIn Profile</p>
           </div>
 
           <!-- GitHub -->
           <div class="github">
-            <figure class="fontawesome-icon">
-              <img  src="" alt="github-icon">
-            </figure>
+            <p class="fontawesome-icon"><a href="www.github.com">
+              <i class="fab fa-github"></i></a>
+            </p>
             <p>GitHub Profile</p>
           </div>
         </div>
